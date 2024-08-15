@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 16px;
+}
+
+section {
+  margin: 0;
+  width: 480px;
+}
+
+h1 {
+  font-size: 26px;
+  color: blueviolet;
+  text-decoration: underline;
+  
+}
+
+p {
+  line-height: 1.;
+}
+
+.hidden {
+  display: none;
+}
+
+#more, #close {
+  font-style: italic;
+  font-size: 12px;
+  font-weight: bolder;
+  color: rgb(12, 26, 225);
+  cursor: pointer;
+}
+
+#contents {
+  display: none;
+}
+
+#contents.appear {
+  display: block;
+}
